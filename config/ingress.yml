@@ -11,7 +11,7 @@ spec:
   - host: "app.motoren.site"
     http:
       paths:
-      - pathType: Exact
+      - pathType: Prefix
         path: "/"
         backend:
           service:
