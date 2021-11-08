@@ -1,0 +1,15 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: motoren-frontpage
+  namespace: apps
+  labels:
+    k8s-app: motoren-frontpage
+spec:
+  ports:
+      port: 80
+      targetPort: 80
+  selector:
+    k8s-app: motoren-frontpage
+  type: ClusterIP
+  ipFamilyPolicy: SingleStack
