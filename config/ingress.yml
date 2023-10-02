@@ -4,11 +4,11 @@ metadata:
   name: motoren-frontpage-ingress
   namespace: apps
   annotations:
-    kubernetes.io/ingress.class: nginx
     #nginx.ingress.kubernetes.io/rewrite-target: /
 spec:
+  ingressClassName: nginx
   rules:
-  - host: "app.motoren.site"
+  - host: app.ostepopp.site
     http:
       paths:
       - pathType: Prefix

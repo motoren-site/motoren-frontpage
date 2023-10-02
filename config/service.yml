@@ -13,4 +13,3 @@ spec:
   selector:
     k8s-app: motoren-frontpage
   type: ClusterIP
-  ipFamilyPolicy: SingleStack
