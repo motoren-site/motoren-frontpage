@@ -1,7 +1,7 @@
-import logo from './gear.png';
-import './App.css';
-import Clock from './Clock';
-import AnalogClock from 'analog-clock-react';
+import logo from "./gear.png";
+import "./App.css";
+import Clock from "./Clock";
+import AnalogClock from "analog-clock-react";
 
 let options = {
   width: "300px",
@@ -13,19 +13,17 @@ let options = {
   handColors: {
     second: "#d81c7a",
     minute: "#ffffff",
-    hour: "#ffffff"
-  }
+    hour: "#ffffff",
+  },
 };
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h2>
-          app.motoren.site
-        </h2>
+        <h2>app.ostepopp.site</h2>
         <AnalogClock {...options} />
-        <Clock/>
+        <Clock />
       </header>
     </div>
   );
