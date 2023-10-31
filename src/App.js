@@ -21,7 +21,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h2>app.ostepopp.site</h2>
+        <h2>app.ostepopp.site!</h2>
         <AnalogClock {...options} />
         <Clock />
       </header>
